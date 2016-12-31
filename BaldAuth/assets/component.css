@@ -1,0 +1,40 @@
+.auth-modal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	.auth-modal > form {
+		text-align: center;	
+	}
+		.auth-modal > form > p {
+			font-size: 24px;
+			color: #436073;
+		}
+		.auth-modal > form > input {
+			background-color: #ecf0f1;
+			border-bottom: 4px solid #81a2b7;
+			color: #4a4a4a;
+			font-size: 24px;
+			padding: 16px;
+			width: 224px;
+			margin: 32px auto;
+			outline: none;
+		}
+		.auth-modal > form > button {
+			display: inline;
+			width: 112px;
+			height: 48px;
+			font-size: 18px;
+			font-weight: bold;
+			border: none;
+			color: #436073;
+			background-color: #ecf0f1;
+			border-radius: 4px;
+			cursor: pointer;
+			outline: none;
+			opacity: .7;
+			transition: opacity .5s;
+		}
+		.auth-modal > form > button:hover {
+			opacity: 1;
+		}
