@@ -37,7 +37,7 @@ module.exports = {
 Now you can apply `BaldAuth` passed with password hash. Using composition it can be done with any component. If you use React Router in your app then most reliable way will be wrapping `<Router />`:
 
 ```javascript
-// Now until passwordsa hashes matche nothing of your app structure will be exposed by developer tools
+// Now until passwords hashes match nothing of your app structure will be exposed to user by dev tools
 // like Chrome DOM inspector
 <BaldAuth passwordHash={__PASSWORD_HASH__}>
   <Router history={syncHistoryWithStore(browserHistory, store)}>
