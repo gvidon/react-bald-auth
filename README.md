@@ -45,3 +45,13 @@ Now you can apply `BaldAuth` passed with password hash. Using composition it can
   </Router>
 </BaldAuth>
 ```
+
+### Properties
+#### Mandatory `passwordHash`
+Sha256 hash to be matched to entered password hash.
+
+#### Optional `title`
+Message to be shown over auth form.
+
+#### Optional `buttonTitle`
+Submit button title.
