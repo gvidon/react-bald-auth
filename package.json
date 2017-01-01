@@ -1,7 +1,7 @@
 {
   "name": "react-bald-auth",
   "main": "./build/bald-auth.min.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simplest auth ever, yet powerful enough to lock up your app.",
   "scripts": {
     "build": "webpack --display-error-details --config webpack.js"
