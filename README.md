@@ -47,11 +47,11 @@ Now you can apply `BaldAuth` passed with password hash. Using composition it can
 ```
 
 ## Properties
-### Mandatory `passwordHash`
+### `passwordHash`, mandatory
 Sha256 hash to be matched to entered password hash.
 
-### Optional `title`
+### `title`, optional
 Message to be shown over auth form.
 
-### Optional `buttonTitle`
+### `buttonTitle`, optional
 Submit button title.
