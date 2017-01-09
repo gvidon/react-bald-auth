@@ -17,7 +17,7 @@ const
 
 Auth.propTypes = {
 	buttonTitle : PropTypes.string,
-	passwordHash: PropTypes.string.isRequired,
+	passwordHash: PropTypes.string,
 	title       : PropTypes.string
 };
 
