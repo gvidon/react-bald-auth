@@ -1,4 +1,6 @@
 # BaldAuth for react apps
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/gvidon/react-bald-auth.svg)](https://greenkeeper.io/)
 Tiny simple auth, done in browser, with password hashed by webpack during build process and not visible to app users.
 
 ## Installation
